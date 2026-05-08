@@ -1,0 +1,15 @@
+{
+  "tipo_banco": "MongoDB",
+  "colecao": "formularios_adocao",
+  "exemplo_documento": {
+    "pet_id": 102,
+    "adotante_nome": "Mariana",
+    "respostas": {
+      "experiencia_caes": "Sim",
+      "tipo_moradia": "Apartamento",
+      "possui_quintal": false,
+      "motivacao": "Companhia para home office"
+    }
+  },
+  "redis_uso": "Cache de busca por cidade/porte para atender RNF03 (Performance)"
+}
