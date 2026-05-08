@@ -1,0 +1,9 @@
+graph TD
+    User((Usuário)) --> WebApp[App CãoFiança: React/Flutter]
+    WebApp --> API[Backend API: Node.js/Express]
+    
+    subgraph "Camada de Dados"
+        API --> MySQL[(MySQL: Dados Estruturados)]
+        API --> MongoDB[(MongoDB: Formulários)]
+        API --> Redis[(Redis: Cache de Busca)]
+    end
