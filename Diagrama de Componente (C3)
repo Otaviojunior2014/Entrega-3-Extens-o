@@ -1,0 +1,12 @@
+graph LR
+    subgraph "Componentes da API"
+        Auth[Security: BCrypt]
+        PetService[Gestão de Pets]
+        FormService[Gerenciador de Formulários]
+        DonationService[Processador de Doações]
+    end
+
+    Auth --> MySQL
+    PetService --> MySQL
+    FormService --> MongoDB
+    DonationService --> Payment
